@@ -65,11 +65,24 @@
       };
     }
 
-    // Nav links
+    // Nav links (hide sections that have no content)
     const navOrder = ["about", "experience", "education", "skills", "projects", "contact"];
+    const hasContent = {
+      about: !!t(CV_DATA.about),
+      experience: CV_DATA.experience.length > 0,
+      education: CV_DATA.education.length > 0,
+      skills: CV_DATA.skills.length > 0,
+      projects: CV_DATA.projects.length > 0,
+      contact: true,
+    };
     el("nav-links").innerHTML = navOrder
+      .filter((k) => hasContent[k])
       .map((k) => `<a href="#${k}">${t(UI_STRINGS.nav[k])}</a>`)
       .join("");
+    navOrder.forEach((k) => {
+      const sec = document.getElementById(k);
+      if (sec) sec.hidden = !hasContent[k];
+    });
 
     // CTAs
     el("cta-contact").textContent = t(UI_STRINGS.buttons.contactMe);
@@ -135,7 +148,7 @@
 
     // Skills
     el("skills-list").innerHTML = CV_DATA.skills
-      .map((s) => `<span class="chip">${s}</span>`)
+      .map((s) => `<span class="chip">${t(s)}</span>`)
       .join("");
 
     // Projects
