@@ -1,5 +1,5 @@
 /* =====================================================
-   GazPro Enerji - Main JavaScript
+   Acar Muhendislik - Main JavaScript
    ===================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -94,45 +94,45 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ----- Projects Data & Filter ----- */
   const projectsData = [
     {
-      title: 'Ankara Konut Sitesi',
-      category: 'residential',
-      categoryLabel: 'Konut',
-      desc: '850 daireli site icin komple dogalgaz tesisat projesi',
+      title: 'Trabzon Merkez Konut Donusumu',
+      category: 'donusum',
+      categoryLabel: 'Donusum',
+      desc: '120 daireli sitenin komple dogalgaz donusum projesi',
       color: '#2a5a8c'
     },
     {
-      title: 'Izmir Sanayi Bolgesi',
-      category: 'industrial',
-      categoryLabel: 'Sanayi',
-      desc: 'OSB icin yuksek basincli dogalgaz hat donusumu',
+      title: 'Ortahisar Kazan Dairesi',
+      category: 'kazan',
+      categoryLabel: 'Kazan Dairesi',
+      desc: 'Apartman kazan dairesinin dogalgaz sistemine donusumu',
       color: '#1b3a5c'
     },
     {
-      title: 'Istanbul AVM Projesi',
-      category: 'commercial',
-      categoryLabel: 'Ticari',
-      desc: 'Merkezi isitma ve sogutma sistemi entegrasyonu',
+      title: 'Akcaabat Toplu Konut',
+      category: 'tesisat',
+      categoryLabel: 'Tesisat',
+      desc: '200 daireli TOKi projesinde yeni dogalgaz tesisati',
       color: '#3a6b9c'
     },
     {
-      title: 'Bursa Fabrika Donusumu',
-      category: 'industrial',
-      categoryLabel: 'Sanayi',
-      desc: 'Tekstil fabrikasi LPG\'den dogalgaza gecis projesi',
+      title: 'Trabzon Ticaret Merkezi',
+      category: 'donusum',
+      categoryLabel: 'Donusum',
+      desc: 'Isyeri ve magazalarin dogalgaz donusum calismalari',
       color: '#0f2640'
     },
     {
-      title: 'Antalya Otel Kompleksi',
-      category: 'commercial',
-      categoryLabel: 'Ticari',
-      desc: '5 yildizli otel icin dogalgaz altyapi calismalari',
+      title: 'Yomra Kazan Dairesi Projesi',
+      category: 'kazan',
+      categoryLabel: 'Kazan Dairesi',
+      desc: '3 bloklu sitenin merkezi kazan dairesi yenilemesi',
       color: '#2a5a8c'
     },
     {
-      title: 'Eskisehir Toplu Konut',
-      category: 'residential',
-      categoryLabel: 'Konut',
-      desc: '1200 daireli TOKi projesinde dogalgaz tesisati',
+      title: 'Besikduzu Konut Tesisati',
+      category: 'tesisat',
+      categoryLabel: 'Tesisat',
+      desc: 'Yeni insaat konut projesi icin komple dogalgaz tesisati',
       color: '#1b3a5c'
     }
   ];
@@ -173,14 +173,14 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Ahmet Yilmaz',
       role: 'Site Yonetim Baskani',
       initials: 'AY',
-      text: 'GazPro Enerji ekibi sitemizin tum dogalgaz tesisatini kusursuz bir sekilde tamamladi. Profesyonel yaklasim ve zamaninda teslimat icin tesekkurler.',
+      text: 'Acar Muhendislik ekibi sitemizin tum dogalgaz donusumunu kusursuz bir sekilde tamamladi. Profesyonel yaklasim ve zamaninda teslimat icin tesekkurler.',
       stars: 5
     },
     {
       name: 'Fatma Kaya',
-      role: 'Fabrika Muduru',
+      role: 'Apartman Yoneticisi',
       initials: 'FK',
-      text: 'Fabrikamizin dogalgaz donusum projesini GazPro ile gerceklestirdik. Enerji maliyetlerimiz %35 azaldi. Kesinlikle tavsiye ediyorum.',
+      text: 'Kazan dairemizin dogalgaz donusumunu Acar Muhendislik ile gerceklestirdik. Enerji maliyetlerimiz %35 azaldi. Kesinlikle tavsiye ediyorum.',
       stars: 5
     },
     {
@@ -192,23 +192,23 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: 'Ayse Ozturk',
-      role: 'Otel Genel Muduru',
+      role: 'Ev Sahibi',
       initials: 'AO',
-      text: 'Otelimizin tum isitma sistemini yenilediler. 7/24 destek hatlarini arayabiliyoruz. Harika bir is birligi.',
+      text: 'Evimizin dogalgaz tadilatini cok kisa surede ve temiz bir sekilde tamamladilar. Cok memnun kaldik.',
       stars: 5
     },
     {
       name: 'Mustafa Sahin',
-      role: 'AVM Yoneticisi',
+      role: 'Isyeri Sahibi',
       initials: 'MS',
-      text: 'AVM projesinde hem zamaninda teslim ettiler hem de butcemizi asmadilar. Profesyonel ve guvenilir bir firma.',
+      text: 'Dukkanimizin dogalgaz donusumunu hizli ve guvenli bir sekilde gerceklestirdiler. Profesyonel ve guvenilir bir firma.',
       stars: 5
     },
     {
       name: 'Zeynep Arslan',
       role: 'Ev Sahibi',
       initials: 'ZA',
-      text: 'Evimizin kombi bakimini her yil GazPro\'ya yaptiriyoruz. Dakik, temiz ve uygun fiyatli hizmet.',
+      text: 'Evimizin kombi bakimini her yil Acar Muhendislik\'e yaptiriyoruz. Dakik, temiz ve uygun fiyatli hizmet.',
       stars: 5
     }
   ];
