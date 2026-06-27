@@ -16,20 +16,20 @@ const CV_DATA = {
 
   // --- Başlık / Title ----------------------------------------------------
   title: {
-    tr: "Yazılım Geliştirici",
-    en: "Software Developer",
+    tr: "Full Stack & Mobil Geliştirici",
+    en: "Full Stack & Mobile Developer",
   },
 
   // --- Kısa tanıtım / Short intro (hero) --------------------------------
   tagline: {
-    tr: "Temiz, kullanışlı ve modern web uygulamaları geliştiriyorum.",
-    en: "I build clean, useful and modern web applications.",
+    tr: "Web (frontend & backend) ve mobil uygulamalar geliştiriyorum.",
+    en: "I build web (frontend & backend) and mobile applications.",
   },
 
   // --- Hakkımda / About --------------------------------------------------
   about: {
-    tr: "Kendini buraya birkaç cümleyle tanıt. Hangi alanda çalışıyorsun, neleri seviyorsun, hedeflerin neler? Bu metni kendi sözlerinle değiştir.",
-    en: "Introduce yourself in a few sentences here. What do you work on, what do you enjoy, what are your goals? Replace this text with your own words.",
+    tr: "2001 yılında Yalova'da doğdum, şu anda Trabzon'da yaşıyorum. 4 yıldır yazılım geliştirme ile uğraşıyorum; web tarafında hem frontend hem backend geliştirmeler yapıyor, aynı zamanda mobil uygulamalar geliştiriyorum. Yeni teknolojiler öğrenmeyi ve kullanıcı odaklı, işlevsel çözümler üretmeyi seviyorum. İkinci dil olarak İngilizceyi B1-B2 seviyesinde kullanıyorum.",
+    en: "I was born in Yalova in 2001 and currently live in Trabzon, Turkey. I have been working in software development for 4 years — building both frontend and backend for the web, as well as developing mobile applications. I enjoy learning new technologies and creating user-focused, functional solutions. I use English as my second language at a B1-B2 level.",
   },
 
   // --- İletişim / Contact ------------------------------------------------
@@ -37,8 +37,8 @@ const CV_DATA = {
     email: "zeydvardar61@gmail.com",
     phone: "", // örn / e.g. "+90 5XX XXX XX XX"
     location: {
-      tr: "Türkiye",
-      en: "Turkey",
+      tr: "Trabzon, Türkiye",
+      en: "Trabzon, Turkey",
     },
   },
 
@@ -117,7 +117,7 @@ const CV_DATA = {
   // --- Diller / Languages -----------------------------------------------
   languages: [
     { name: { tr: "Türkçe", en: "Turkish" }, level: { tr: "Anadil", en: "Native" } },
-    { name: { tr: "İngilizce", en: "English" }, level: { tr: "Orta / İleri", en: "Intermediate / Advanced" } },
+    { name: { tr: "İngilizce", en: "English" }, level: { tr: "B1-B2 (Orta / Orta-İleri)", en: "B1-B2 (Intermediate / Upper-Intermediate)" } },
   ],
 };
 
