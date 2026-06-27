@@ -94,45 +94,59 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ----- Projects Data & Filter ----- */
   const projectsData = [
     {
-      title: 'Trabzon Merkez Konut Donusumu',
-      category: 'donusum',
-      categoryLabel: 'Donusum',
-      desc: '120 daireli sitenin komple dogalgaz donusum projesi',
-      color: '#2a5a8c'
-    },
-    {
-      title: 'Ortahisar Kazan Dairesi',
-      category: 'kazan',
-      categoryLabel: 'Kazan Dairesi',
-      desc: 'Apartman kazan dairesinin dogalgaz sistemine donusumu',
+      title: 'Trabzon Hukumet Konagi',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Trabzon Hukumet Konagi dogalgaz donusum projesi',
       color: '#1b3a5c'
     },
     {
-      title: 'Akcaabat Toplu Konut',
-      category: 'tesisat',
-      categoryLabel: 'Tesisat',
-      desc: '200 daireli TOKi projesinde yeni dogalgaz tesisati',
-      color: '#3a6b9c'
-    },
-    {
-      title: 'Trabzon Ticaret Merkezi',
-      category: 'donusum',
-      categoryLabel: 'Donusum',
-      desc: 'Isyeri ve magazalarin dogalgaz donusum calismalari',
-      color: '#0f2640'
-    },
-    {
-      title: 'Yomra Kazan Dairesi Projesi',
-      category: 'kazan',
-      categoryLabel: 'Kazan Dairesi',
-      desc: '3 bloklu sitenin merkezi kazan dairesi yenilemesi',
+      title: 'Trabzon Ticaret ve Sanayi Odasi',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Ticaret ve Sanayi Odasi binasi dogalgaz donusumu',
       color: '#2a5a8c'
     },
     {
-      title: 'Besikduzu Konut Tesisati',
-      category: 'tesisat',
-      categoryLabel: 'Tesisat',
-      desc: 'Yeni insaat konut projesi icin komple dogalgaz tesisati',
+      title: 'KTU Fakulte Dogalgaz Donusumu',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Karadeniz Teknik Universitesi fakulte binasi dogalgaz donusumu',
+      color: '#0f2640'
+    },
+    {
+      title: 'Trabzon Jandarma Komutanligi',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Jandarma Komutanligi binasi dogalgaz donusum projesi',
+      color: '#1b3a5c'
+    },
+    {
+      title: 'Bayburt Hastanesi',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Bayburt Devlet Hastanesi dogalgaz donusum calismalari',
+      color: '#3a6b9c'
+    },
+    {
+      title: 'Rize Hukumet Konagi',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Rize Hukumet Konagi dogalgaz donusum projesi',
+      color: '#2a5a8c'
+    },
+    {
+      title: 'Sera Lake Resort Hotel',
+      category: 'otel',
+      categoryLabel: 'Otel',
+      desc: 'Sera Lake Resort Hotel komple mekanik tesisat projesi',
+      color: '#0f2640'
+    },
+    {
+      title: 'Diger Buyuk Devlet Projeleri',
+      category: 'kamu',
+      categoryLabel: 'Kamu',
+      desc: 'Bircok kamu ve devlet binasinda dogalgaz donusum projeleri',
       color: '#1b3a5c'
     }
   ];
