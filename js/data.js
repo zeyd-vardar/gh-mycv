@@ -60,8 +60,8 @@ const CV_DATA = {
   education: [
     {
       school: { tr: "Yalova Üniversitesi", en: "Yalova University" },
-      degree: { tr: "Bölümünü buraya yaz", en: "Add your department/degree here" },
-      period: { tr: "Yılları buraya yaz (örn. 2020 — 2024)", en: "Add years here (e.g. 2020 — 2024)" },
+      degree: { tr: "Bilgisayar Programcılığı", en: "Computer Programming" },
+      period: { tr: "2024 (Mezun)", en: "2024 (Graduated)" },
       description: {
         tr: "",
         en: "",
