@@ -52,67 +52,38 @@ const CV_DATA = {
   ],
 
   // --- Deneyim / Experience ---------------------------------------------
-  experience: [
-    {
-      role: { tr: "Pozisyon / Rol", en: "Position / Role" },
-      company: "Şirket Adı / Company Name",
-      period: { tr: "2023 — Günümüz", en: "2023 — Present" },
-      description: {
-        tr: "Burada yaptığın işleri ve başarılarını anlat.",
-        en: "Describe your responsibilities and achievements here.",
-      },
-    },
-    {
-      role: { tr: "Önceki Pozisyon", en: "Previous Position" },
-      company: "Önceki Şirket / Previous Company",
-      period: { tr: "2021 — 2023", en: "2021 — 2023" },
-      description: {
-        tr: "Burada yaptığın işleri ve başarılarını anlat.",
-        en: "Describe your responsibilities and achievements here.",
-      },
-    },
-  ],
+  // Henüz iş deneyimi yok; ileride buraya ekleyebilirsin (boşken bölüm gizlenir).
+  // No work experience yet; add entries here later (section is hidden while empty).
+  experience: [],
 
   // --- Eğitim / Education ------------------------------------------------
   education: [
     {
-      school: { tr: "Üniversite / Okul Adı", en: "University / School Name" },
-      degree: { tr: "Bölüm / Derece", en: "Field / Degree" },
-      period: { tr: "2019 — 2023", en: "2019 — 2023" },
+      school: { tr: "Yalova Üniversitesi", en: "Yalova University" },
+      degree: { tr: "Bölümünü buraya yaz", en: "Add your department/degree here" },
+      period: { tr: "Yılları buraya yaz (örn. 2020 — 2024)", en: "Add years here (e.g. 2020 — 2024)" },
       description: {
-        tr: "İsteğe bağlı açıklama (not ortalaması, projeler, vb.).",
-        en: "Optional description (GPA, projects, etc.).",
+        tr: "",
+        en: "",
       },
     },
   ],
 
   // --- Yetenekler / Skills ----------------------------------------------
+  // Düz yazı (örn. "React") ya da { tr, en } kullanabilirsin.
+  // Plain string (e.g. "React") or { tr, en } both work.
   skills: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React",
-    "Node.js", "Git", "Python", "SQL",
+    { tr: "Web Geliştirme", en: "Web Development" },
+    "Frontend",
+    "Backend",
+    { tr: "Mobil Geliştirme", en: "Mobile Development" },
+    { tr: "Yapay Zeka Destekli İleri Düzey Kodlama", en: "AI-Assisted Advanced Coding" },
   ],
 
   // --- Projeler / Projects ----------------------------------------------
-  projects: [
-    {
-      name: "Proje Adı / Project Name",
-      description: {
-        tr: "Projenin kısa açıklaması.",
-        en: "Short description of the project.",
-      },
-      tags: ["React", "API"],
-      url: "",
-    },
-    {
-      name: "İkinci Proje / Second Project",
-      description: {
-        tr: "Projenin kısa açıklaması.",
-        en: "Short description of the project.",
-      },
-      tags: ["JavaScript", "CSS"],
-      url: "",
-    },
-  ],
+  // Projeler hazır olduğunda buraya ekle (boşken bölüm gizlenir).
+  // Add projects here when ready (section is hidden while empty).
+  projects: [],
 
   // --- Diller / Languages -----------------------------------------------
   languages: [
